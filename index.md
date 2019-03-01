@@ -42,8 +42,10 @@ Il costo totale non supera i 5000€/anno, soprattutto utilizzando servizi cloud
 # Storie dell’orrore
 
 * [data.whitehouse.gov](https://www.politico.com/agenda/story/2017/07/25/what-happened-trump-war-data-000481)
-* [#italiasicura](http://www.cngeologi.it/2018/07/19/chiude-italia-sicura-a-rischio-gli-interventi-sulledilizia-scolastica/)
-* [dati.gov.it 2019-02-28](https://twitter.com/openantani/status/1101213274929025025)
+* [#italiasicura](http://www.cngeologi.it/2018/07/19/chiude-italia-sicura-a-rischio-gli-interventi-sulledilizia-scolastica/)<br />
+  <img width="300px" src="images/italiasicura.jpg"/>
+* [dati.gov.it 2019-02-28](https://twitter.com/openantani/status/1101213274929025025)<br />
+  <img width="300px" src="images/datigovscassato.jpg"/>
 
 # Come aiutare?
 
