@@ -1,0 +1,215 @@
+# --- General options --- #
+
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+
+url: "https://scriptoriumdigitale.org"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
+title: Scriptorium Digitale
+
+# Short description of your site
+description: Come i monaci benedettini, per preservare la cultura digitale da un nuovo Medioevo
+
+# --- Navigation bar options --- #
+# List of links in the navigation bar
+navbar-links:
+   Introduzione:
+        - Il Problema: "#il-problema"
+        - La Chiamata: "#la-chiamata"
+        - Il Progetto: "#il-progetto"
+        - Le Risorse Necessarie: "#le-risorse-necessarie"
+        - Esempi Analoghi: "#esempi-analoghi"
+        - Storie dell'Orrore: "#storie-dellorrore"
+   Il Problema: "il_problema/"
+   La Chiamata: "la_chiamata/"
+   Il Progetto: "il_progetto/"
+   About: "about/"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/scriptorium.jpg
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Scriptorium Digitale
+  email: "info@scriptoriumdigitale.org"
+  facebook: 
+  github: mfortini/scriptoriumdigitale
+  twitter: 
+  linkedin:   # eg. daattali
+  xing:       # eg. daattali
+  stackoverflow:   # eg. "3943160/daattali"
+  instagram: 
+  youtube: 
+  rss: 
+  telegram: 
+  medium: 
+  archiveorg: 
+  messenger: 
+
+# Select which links to show in the footer
+footer-links-active:
+  androidapp: false
+  rss: false
+  facebook: false
+  email: true
+  twitter: false
+  github: true
+  linkedin: false
+  xing: false
+  stackoverflow: false
+  instagram: false
+  youtube: false
+  telegram: false
+  medium: false
+  archiveorg: false
+  messenger: false
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: false
+  facebook: false
+  google: false
+  linkedin: false
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+
+# --- Misc --- #
+
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+disqus:
+
+# Fill in your Google Analytics ID to track your website using GA
+#google_analytics: ""
+
+jekyll-crosseverything_to_medium:
+  enabled: false
+  useraccount: 
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "Europe/Rome"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+#selec tile for maps
+tile_map: https://c.tile.opentopomap.org/{z}/{x}/{y}.png
+kramdown:
+  input: GFM
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
+link-tags: false
+
+include:
+  - _data
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Vagrantfile
+  - vendor
+  - .gitlab-ci.yml
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+    - /scripts
+    - /external
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+collections:
+  storie:
+    output: true
+
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-tidy
+
+jekyll_tidy:
+  exclude: []
+  compress_html: true
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
