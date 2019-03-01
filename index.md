@@ -53,6 +53,8 @@ Il progetto è alla ricerca di idee e mezzi per poter essere lanciato in modo ef
 
 Se hai idee, suggerimenti, commenti, proposte, puoi scrivere a <a href="mailto:info@scriptoriumdigitale.org">info@scriptoriumdigitale.org</a>, oppure integrare questa pagina direttamente su [GitHub](https://www.github.org/mfortini/scriptoriumdigitale)
 
+Abbiamo anche un [forum Discourse tutto nostro](discourse.scriptoriumdigitale.org) (grazie @aborruso per il suggerimento)
+
 Grazie!
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
