@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem 'jekyll-sass-converter'
   gem 'minima'
   gem 'kramdown'
+  gem 'kramdown-parser-gfm'
   gem 'liquid'
   gem 'rouge'
   gem 'github-pages-health-check', '1.2.0'
